@@ -4,6 +4,9 @@
 //
 //  Created by Tetsurou Morishita on 2023/09/12.
 //
+
+//どこかしらエラーしててpreviewができない状態＋saveButtonを押下した後に画面が遷移しないのはここに問題ありそう
+
 import FirebaseFirestoreSwift
 import SwiftUI
 
