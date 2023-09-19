@@ -6,6 +6,7 @@
 //
 
 //どこかしらエラーしててpreviewができない状態＋saveButtonを押下した後に画面が遷移しないのはここに問題ありそう
+//userIdが足りなくて　ToDoListView(userId: "")　に追記した
 
 import FirebaseFirestoreSwift
 import SwiftUI
@@ -61,6 +62,6 @@ struct ToDoListView: View {
 
 struct ToDoListView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListView(userId: "")
+        ToDoListView(userId: "6dUZHqhtXObFskIrMmf1KanqmRi1")
     }
 }
