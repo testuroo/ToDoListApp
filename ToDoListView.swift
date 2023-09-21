@@ -31,11 +31,11 @@ struct ToDoListView: View {
                     //Text(item.title)
                     ToDoListItemView(item: item)
                         .swipeActions {
-                            Button {
-                                //Delete
-                            } label: {
-                                Text("delete")
-                                    .foregroundColor(Color.red)
+                                 Button ("Delete") {
+                                viewModel.delete(id: item.id)
+                                
+                            }
+                                    .background(Color.red)
                             }
 
                         }
