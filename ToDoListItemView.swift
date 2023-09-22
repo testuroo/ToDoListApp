@@ -25,7 +25,7 @@ struct ToDoListItemView: View {
             Button {
                 
             } label: {
-                Image(systemName: item.isDone ? "circle.chekmark.fill" : "cirle")
+                   Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
             }
             
         }
