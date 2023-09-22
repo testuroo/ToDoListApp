@@ -6,7 +6,10 @@
 //
 
 //どこかしらエラーしててpreviewができない状態＋saveButtonを押下した後に画面が遷移しないのはここに問題ありそう
-//userIdが足りなくて　ToDoListView(userId: "")　に追記した
+    //Firebaceのuser情報みたかぎりsaveできてた。
+//userIdが足りなくて　ToDoListView(userId: "")　に追記したーーー×
+//bodyの中が怪しい３１行〜３９行
+//問題は保存してあるデータがpreviewに表示されないということ
 
 import FirebaseFirestoreSwift
 import SwiftUI
