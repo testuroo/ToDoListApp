@@ -5,8 +5,7 @@
 //  Created by Tetsurou Morishita on 2023/09/12.
 //
 
-//どこかしらエラーしててpreviewができない状態＋saveButtonを押下した後に画面が遷移しないのはここに問題ありそう
-    //Firebaceのuser情報みたかぎりsaveできてた。
+//Firebaceのuser情報みたかぎりsaveできてた。が押下した後画面が遷移しない
 //userIdが足りなくて　ToDoListView(userId: "")　に追記したーーー×
 //bodyの中が怪しい３１行〜３９行
 //問題は保存してあるデータがpreviewに表示されないということ
