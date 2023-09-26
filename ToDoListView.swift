@@ -6,7 +6,7 @@
 //
 
 //Firebaceのuser情報みたかぎりsaveできてた。が押下した後画面が遷移しない
-//userIdが足りなくて　ToDoListView(userId: "")　に追記したーーー×
+//userIdが足りなくて　ToDoListView(userId: "")　内に追記したが　×
 //bodyの中が怪しい３１行〜３９行
 //問題は保存してあるデータがpreviewに表示されないということ
 
@@ -34,6 +34,7 @@ struct ToDoListView: View {
                     ToDoListItemView(item: item)
                         .swipeActions {
                                  Button ("Delete") {
+                                     //エラー
                                 viewModel.delete(id: item.id)
                                 
                             }
